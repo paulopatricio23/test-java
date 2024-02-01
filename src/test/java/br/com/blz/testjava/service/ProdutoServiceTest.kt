@@ -22,8 +22,8 @@ class ProdutoServiceTest {
   private val quantidadeEmEstoque = 12
   private val estoqueZerado = 0
 
-  lateinit var produtoDTO: ProdutoDTO
-  lateinit var produtoEstoqueZeradoDTO: ProdutoDTO
+  private lateinit var produtoDTO: ProdutoDTO
+  private lateinit var produtoEstoqueZeradoDTO: ProdutoDTO
 
   @BeforeEach
   fun beforeEach() {
